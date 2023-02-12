@@ -133,7 +133,7 @@ class _HomePageState extends State<HomePage> {
                         fontWeight: FontWeight.w600),
                   ),
                   onTap: () {
-                    Navigator.pushNamed(context, 'home_screen');
+                    Navigator.pushNamed(context, 'info_panel');
                   }),
               //Resources
               ListTile(
@@ -150,7 +150,7 @@ class _HomePageState extends State<HomePage> {
                         fontWeight: FontWeight.w600),
                   ),
                   onTap: () {
-                    Navigator.pushNamed(context, 'home_screen');
+                    Navigator.pushNamed(context, 'resources_screen');
                   }),
               //Share your story
               ListTile(
@@ -167,7 +167,7 @@ class _HomePageState extends State<HomePage> {
                         fontWeight: FontWeight.w600),
                   ),
                   onTap: () {
-                    Navigator.pushNamed(context, 'home_screen');
+                    Navigator.pushNamed(context, 'story_screen');
                   }),
               //profile
               ListTile(

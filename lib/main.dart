@@ -63,8 +63,8 @@ class _MyAppState extends State<MyApp> {
           /*  primaryColor: Constants().primaryColor, */
           scaffoldBackgroundColor: Colors.white),
       debugShowCheckedModeBanner: false,
-      /*  home: _isSignedIn ? HomePage() : const LoginPage(), */
-      initialRoute: 'login_page',
+      home: _isSignedIn ? HomePage() : const LoginPage(),
+      /* initialRoute: 'login_page', */
       routes: {
         'register_screen': (context) => const RegisterPage(),
         'login_page': (context) => const LoginPage(),
@@ -72,6 +72,10 @@ class _MyAppState extends State<MyApp> {
         'profile_page': (context) => const ProfilePage(),
         'chat_screen': (context) =>
             const ChatPage(uid: '456', userName: 'Drishti Anand'),
+        //'info_panel':(context) =>
+        //'resources_screen':(context)=>
+        //'story_screen':(context)=>
+        //'about_screen':(context)=>
       },
     );
   }
