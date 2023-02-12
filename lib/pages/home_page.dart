@@ -62,7 +62,18 @@ class _HomePageState extends State<HomePage> {
   // sign user out method
   Future<void> signUserOut() async {
     await FirebaseAuth.instance.signOut();
-  } */
+  }*/
+
+
+  String dropdownvalue = 'Fees';
+
+  // List of options in our dropdown menu
+  var items = [
+    'Fees',
+    'Area of expertise',
+    'Experience',
+
+  ];
 
   //for the search bar for the lawyers
   String searchValue = '';
@@ -211,8 +222,46 @@ class _HomePageState extends State<HomePage> {
           children: [
             //spacing
             const SizedBox(
-              height: 30,
+              height: 20,
             ),
+            Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Text(
+                    'Filter :', style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18.0),
+                  ),
+                ),
+                SizedBox(
+                  width: 20.0,
+                ),
+                DropdownButton(
+
+                  // Initial Value
+                  value: dropdownvalue,
+                  alignment: Alignment.centerLeft,
+
+                  // Down Arrow Icon
+                  icon: const Icon(Icons.keyboard_arrow_down),
+
+                  // Array list of items
+                  items: items.map((String items) {
+                    return DropdownMenuItem(
+                      value: items,
+                      child: Text(items),
+                    );
+                  }).toList(),
+                  // After selecting the desired option,it will
+                  // change button value to selected value
+                  onChanged: (String? newValue) {
+                    setState(() {
+                      dropdownvalue = newValue!;
+                    });
+                  },
+                ),
+              ],
+            ),
+
             //first lawyer
             Container(
               margin: const EdgeInsets.symmetric(horizontal: 30),
