@@ -6,12 +6,12 @@ Drishti Anand- CSE/IGDTUW-2025
 
 Surbhi Sharma- CSAI/IGDTUW-2025
 
-=======
+
 # Achroma
 
 Our app "Achroma" aims to address this issue by providing a platform for the LGBTQ+ community to connect with lawyers, share experiences, and stay informed about laws and acts empowering them in India.Despite advances in LGBTQ+ rights, many individuals in India still face challenges in accessing legal help and information specific to their needs. This lack of access leads to confusion, uncertainty, and potential violations of their rights. 
 
-## Getting Started
+
 
 ## Glimpses of our app
 
