@@ -63,7 +63,7 @@ class _ProfilePageState extends State<ProfilePage> {
               child: Center(
                   child: Text(
                 "Name:\t\tABC XYZ",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
               )),
             ),
             //spacing
@@ -81,7 +81,7 @@ class _ProfilePageState extends State<ProfilePage> {
               child: Center(
                   child: Text(
                 "Age:\t\t20",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
               )),
             ),
             //spacing
@@ -99,7 +99,7 @@ class _ProfilePageState extends State<ProfilePage> {
               child: Center(
                   child: Text(
                 "Gender:\t\tLesbian",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
               )),
             ),
             //spacing
@@ -117,7 +117,7 @@ class _ProfilePageState extends State<ProfilePage> {
               child: Center(
                   child: Text(
                 "Email:\t\tabc123@gmail.com",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
               )),
             ),
             //spacing
@@ -135,7 +135,7 @@ class _ProfilePageState extends State<ProfilePage> {
               child: Center(
                   child: Text(
                 "City:\t\tNew Delhi",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
               )),
             ),
           ],
