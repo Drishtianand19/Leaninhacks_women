@@ -5,6 +5,7 @@ import 'package:chatapp/pages/auth/register_page.dart';
 import 'package:chatapp/pages/chat_page.dart';
 import 'package:chatapp/pages/home_page.dart';
 import 'package:chatapp/pages/profile_page.dart';
+import 'package:chatapp/pages/reviews_page.dart';
 import 'package:chatapp/shared/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -60,7 +61,6 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
           fontFamily: 'Montserrat',
           primaryColor: const Color.fromARGB(100, 171, 38, 50),
-          /*  primaryColor: Constants().primaryColor, */
           scaffoldBackgroundColor: Colors.white),
       debugShowCheckedModeBanner: false,
       home: _isSignedIn ? HomePage() : const LoginPage(),
@@ -74,7 +74,7 @@ class _MyAppState extends State<MyApp> {
             const ChatPage(uid: '456', userName: 'Drishti Anand'),
         //'info_panel':(context) =>
         //'resources_screen':(context)=>
-        //'story_screen':(context)=>
+        'story_screen': (context) => ReviewsPage(),
         //'about_screen':(context)=>
       },
     );
