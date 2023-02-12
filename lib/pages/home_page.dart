@@ -1,9 +1,9 @@
-import 'package:chatapp/helper/helper_function.dart';
+/* import 'package:chatapp/helper/helper_function.dart';
 import 'package:chatapp/pages/auth/login_page.dart';
 import 'package:chatapp/service/auth_service.dart';
 import 'package:chatapp/service/database_service.dart';
 import 'package:chatapp/widgets/widgets.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_auth/firebase_auth.dart'; */
 import 'package:flutter/material.dart';
 import 'package:easy_search_bar/easy_search_bar.dart';
 
@@ -15,20 +15,20 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  String userName = "";
+  /*  String userName = "";
   String email = "";
   AuthService authService = AuthService();
   Stream? groups;
   bool _isLoading = false;
-  String groupName = "";
+  String groupName = ""; */
 
-  @override
+  /* @override
   void initState() {
     super.initState();
     gettingUserData();
-  }
+  } */
 
-  // string manipulation
+/*   // string manipulation
   String getId(String res) {
     return res.substring(0, res.indexOf("_"));
   }
@@ -57,13 +57,14 @@ class _HomePageState extends State<HomePage> {
       });
     });
   }
-
-  final user = FirebaseAuth.instance.currentUser!;
+ */
+  /* final user = FirebaseAuth.instance.currentUser!;
   // sign user out method
   Future<void> signUserOut() async {
     await FirebaseAuth.instance.signOut();
-  }
+  } */
 
+  //for the search bar for the lawyers
   String searchValue = '';
   final List<String> _suggestions = [
     'Anu Sharma ',

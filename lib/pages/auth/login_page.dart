@@ -117,7 +117,8 @@ class _LoginPageState extends State<LoginPage> {
                                   fontSize: 18),
                             ),
                             onPressed: () {
-                              login(); ////..........  login();
+                              nextScreen(context, const HomePage());
+                              /* login(); */ ////..........  login();
                             },
                           ),
                         ),
@@ -166,7 +167,7 @@ class _LoginPageState extends State<LoginPage> {
           await HelperFunctions.saveUserLoggedInStatus(true);
           await HelperFunctions.saveUserEmailSF(email);
           await HelperFunctions.saveUserNameSF(snapshot.docs[0]['fullName']);
-          nextScreenReplace(context, const HomePage());
+          nextScreen(context, const HomePage());
         } else {
           showSnackbar(context, const Color.fromARGB(100, 171, 38, 50), value);
           setState(() {

@@ -138,7 +138,8 @@ class _RegisterPageState extends State<RegisterPage> {
                                   fontSize: 18),
                             ),
                             onPressed: () {
-                              register();
+                              nextScreen(context, const LoginPage());
+                              /* register(); */
                             },
                           ),
                         ),
@@ -181,7 +182,7 @@ class _RegisterPageState extends State<RegisterPage> {
           await HelperFunctions.saveUserLoggedInStatus(true);
           await HelperFunctions.saveUserEmailSF(email);
           await HelperFunctions.saveUserNameSF(fullName);
-          nextScreenReplace(context, const HomePage());
+          nextScreen(context, const HomePage());
         } else {
           showSnackbar(context, const Color.fromARGB(100, 171, 38, 50), value);
           setState(() {
