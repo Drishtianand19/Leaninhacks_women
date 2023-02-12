@@ -1,6 +1,10 @@
 import 'package:chatapp/helper/helper_function.dart';
+
 import 'package:chatapp/pages/auth/login_page.dart';
+import 'package:chatapp/pages/auth/register_page.dart';
+import 'package:chatapp/pages/chat_page.dart';
 import 'package:chatapp/pages/home_page.dart';
+import 'package:chatapp/pages/profile_page.dart';
 import 'package:chatapp/shared/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -52,11 +56,23 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Achroma',
       theme: ThemeData(
-          primaryColor: Constants().primaryColor,
+          fontFamily: 'Montserrat',
+          primaryColor: const Color.fromARGB(100, 171, 38, 50),
+          /*  primaryColor: Constants().primaryColor, */
           scaffoldBackgroundColor: Colors.white),
       debugShowCheckedModeBanner: false,
-      home: _isSignedIn ? const HomePage() : const LoginPage(),
+      /*  home: _isSignedIn ? HomePage() : const LoginPage(), */
+      initialRoute: 'login_page',
+      routes: {
+        'register_screen': (context) => const RegisterPage(),
+        'login_page': (context) => const LoginPage(),
+        'home_page': (context) => const HomePage(),
+        'profile_page': (context) => const ProfilePage(),
+        'chat_screen': (context) =>
+            const ChatPage(uid: '456', userName: 'Drishti Anand'),
+      },
     );
   }
 }

@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 const textInputDecoration = InputDecoration(
   labelStyle: TextStyle(color: Colors.black, fontWeight: FontWeight.w300),
   focusedBorder: OutlineInputBorder(
-    borderSide: BorderSide(color: Color(0xFFee7b64), width: 2),
+    borderSide: BorderSide(color: Color.fromARGB(100, 171, 38, 50), width: 2),
   ),
   enabledBorder: OutlineInputBorder(
-    borderSide: BorderSide(color: Color(0xFFee7b64), width: 2),
+    borderSide: BorderSide(color: Color.fromARGB(100, 171, 38, 50), width: 2),
   ),
   errorBorder: OutlineInputBorder(
-    borderSide: BorderSide(color: Color(0xFFee7b64), width: 2),
+    borderSide: BorderSide(color: Color.fromARGB(100, 171, 38, 50), width: 2),
   ),
 );
 
@@ -30,7 +30,7 @@ void showSnackbar(context, color, message) {
         style: const TextStyle(fontSize: 14),
       ),
       backgroundColor: color,
-      duration: const Duration(seconds: 2),
+      duration: const Duration(seconds: 1),
       action: SnackBarAction(
         label: "OK",
         onPressed: () {},
