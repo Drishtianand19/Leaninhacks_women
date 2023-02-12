@@ -42,7 +42,7 @@ Back end : FireBase & FireStore
 
 6. Developing a payment platform for lawyers' fees
 
-7. Integrating the chat platform to enable people from the community to chat amongst themselv
+7. Integrating the chat platform to enable people from the community to chat amongst themselves.
 
 ## Glimpses of our app
 
