@@ -20,6 +20,9 @@ Our app "Achroma" aims to address this issue by providing a platform for the LGB
 ![chat](https://user-images.githubusercontent.com/91187555/218303949-58bbdd3b-2857-45ca-a933-58ed427a59f5.png)
 ![Profile](https://user-images.githubusercontent.com/91187555/218303953-53f2e137-f605-4c53-bc3b-fa9572e3007e.png)
 ![about us](https://user-images.githubusercontent.com/91187555/218303955-418bef6f-d811-4813-8363-cfa90d238370.png)
+![share ur story](https://user-images.githubusercontent.com/91187555/218304157-2a262d4f-d6a0-4885-a5ff-75010b80aa20.png)
+![harrassment](https://user-images.githubusercontent.com/91187555/218304166-988b9822-54d8-4f78-a889-b383cb3b6f59.png)
+![side drawer](https://user-images.githubusercontent.com/91187555/218304172-005ba64d-bbcb-436b-8099-9b413eb8a357.png)
 
 A few resources to get you started if this is your first Flutter project:
 
