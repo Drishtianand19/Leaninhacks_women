@@ -58,11 +58,11 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
-/*   final user = FirebaseAuth.instance.currentUser!;
+  final user = FirebaseAuth.instance.currentUser!;
   // sign user out method
   Future<void> signUserOut() async {
     await FirebaseAuth.instance.signOut();
-  } */
+  }
 
   String searchValue = '';
   final List<String> _suggestions = [
