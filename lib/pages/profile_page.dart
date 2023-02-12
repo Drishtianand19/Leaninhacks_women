@@ -88,6 +88,24 @@ class _ProfilePageState extends State<ProfilePage> {
             SizedBox(
               height: 20,
             ),
+            //City
+            Container(
+              height: 40,
+              width: 400,
+              decoration: BoxDecoration(
+                color: Theme.of(context).primaryColor,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Center(
+                  child: Text(
+                "Gender:\t\tLesbian",
+                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+              )),
+            ),
+            //spacing
+            SizedBox(
+              height: 20,
+            ),
             //Email
             Container(
               height: 40,
@@ -99,6 +117,24 @@ class _ProfilePageState extends State<ProfilePage> {
               child: Center(
                   child: Text(
                 "Email:\t\tabc123@gmail.com",
+                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+              )),
+            ),
+            //spacing
+            SizedBox(
+              height: 20,
+            ),
+            //City
+            Container(
+              height: 40,
+              width: 400,
+              decoration: BoxDecoration(
+                color: Theme.of(context).primaryColor,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Center(
+                  child: Text(
+                "City:\t\tNew Delhi",
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
               )),
             ),

@@ -1,9 +1,11 @@
 import 'package:chatapp/helper/helper_function.dart';
+import 'package:chatapp/pages/about_us.dart';
 
 import 'package:chatapp/pages/auth/login_page.dart';
 import 'package:chatapp/pages/auth/register_page.dart';
 import 'package:chatapp/pages/chat_page.dart';
 import 'package:chatapp/pages/home_page.dart';
+import 'package:chatapp/pages/legal_help_page.dart';
 import 'package:chatapp/pages/profile_page.dart';
 import 'package:chatapp/pages/reviews_page.dart';
 import 'package:chatapp/shared/constants.dart';
@@ -73,9 +75,9 @@ class _MyAppState extends State<MyApp> {
         'chat_screen': (context) =>
             const ChatPage(uid: '456', userName: 'Drishti Anand'),
         //'info_panel':(context) =>
-        //'resources_screen':(context)=>
+        'resources_screen': (context) => LegalHelp(),
         'story_screen': (context) => ReviewsPage(),
-        //'about_screen':(context)=>
+        'about_screen': (context) => About_Us(),
       },
     );
   }
