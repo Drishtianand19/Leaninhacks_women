@@ -47,7 +47,7 @@ class _ReviewsPageState extends State<ReviewsPage> {
                 ),
                 padding: EdgeInsets.all(25.0),
                 child: Text(
-                  'I am Kirti, a 32-year-old LGBTQ+ woman from Mumbai. I has been with my partner for 5 years and we recently decided to get married. However, when we approached a lawyer to start the process, we were told that same-sex marriage is not recognized in India.One day, I stumbled upon your app and found a community of people facing similar challenges. I joined the forum and started reading about the experiences of others in the LGBTQ+ community. I was inspired by their resilience and determination to fight for their rights.',
+                  'I am Kirti, a 32-year-old LGBTQ+ woman from Mumbai. I have been with my partner for 5 years and we recently decided to get married. However, when we approached a lawyer to start the process, we were told that same-sex marriage is not recognized in India.One day, I stumbled upon your app and found a community of people facing similar challenges. I joined the forum and started reading about the experiences of others in the LGBTQ+ community. I was inspired by their resilience and determination to fight for their rights.',
                   style: TextStyle(
                     color: Color.fromARGB(255, 35, 34, 34),
                     fontSize: 18.0,
