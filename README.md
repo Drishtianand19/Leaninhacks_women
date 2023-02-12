@@ -12,11 +12,14 @@ Our app "Achroma" aims to address this issue by providing a platform for the LGB
 ## Getting Started
 
 ## Glimpses of our app
-![coverpage (1)](https://user-images.git![sign in](https://user-images.githubusercontent.com/91187555/218303775-70f84e6f-1b4e-4ebe-8bf8-bbab85a095d1.png)
-hubusercontent.com/91187555/218303657-a49e1c78-26ba-4b77-a084-408c2b725d53.png)
-![register](https://user-images.githubusercontent.com/91187555/218303702-2d08da42-8aff-4fb9-ada0-9b178456603e.png)
+![coverpage (1)](https://user-images.githubusercontent.com/91187555/218303933-e2c8e271-fbc3-4001-8170-181acb6d896f.png)
 
-![Home_screen](https://user-images.githubusercontent.com/91187555/218303689-c08ccc8f-b148-4c23-bcbc-f6f8c8c32d5a.png)
+![sign in](https://user-images.githubusercontent.com/91187555/218303937-e4ecf63b-e5f7-48c3-a7a0-14a4dfb0f970.png)
+![register](https://user-images.githubusercontent.com/91187555/218303940-d3045bb7-905f-4e71-8ffc-fb95455748a2.png)
+![search lawyer](https://user-images.githubusercontent.com/91187555/218303945-7be88f81-2286-417a-8028-d063e60b6d69.png)
+![chat](https://user-images.githubusercontent.com/91187555/218303949-58bbdd3b-2857-45ca-a933-58ed427a59f5.png)
+![Profile](https://user-images.githubusercontent.com/91187555/218303953-53f2e137-f605-4c53-bc3b-fa9572e3007e.png)
+![about us](https://user-images.githubusercontent.com/91187555/218303955-418bef6f-d811-4813-8363-cfa90d238370.png)
 
 A few resources to get you started if this is your first Flutter project:
 
