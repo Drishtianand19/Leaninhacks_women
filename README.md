@@ -12,7 +12,6 @@ Our app "Achroma" aims to address this issue by providing a platform for the LGB
 ## Getting Started
 
 ## Glimpses of our app
-![coverpage (1)](https://user-images.githubusercontent.com/91187555/218303933-e2c8e271-fbc3-4001-8170-181acb6d896f.png)
 
 ![sign in](https://user-images.githubusercontent.com/91187555/218303937-e4ecf63b-e5f7-48c3-a7a0-14a4dfb0f970.png)
 ![register](https://user-images.githubusercontent.com/91187555/218303940-d3045bb7-905f-4e71-8ffc-fb95455748a2.png)
@@ -23,6 +22,8 @@ Our app "Achroma" aims to address this issue by providing a platform for the LGB
 ![share ur story](https://user-images.githubusercontent.com/91187555/218304157-2a262d4f-d6a0-4885-a5ff-75010b80aa20.png)
 ![harrassment](https://user-images.githubusercontent.com/91187555/218304166-988b9822-54d8-4f78-a889-b383cb3b6f59.png)
 ![side drawer](https://user-images.githubusercontent.com/91187555/218304172-005ba64d-bbcb-436b-8099-9b413eb8a357.png)
+![resources](https://user-images.githubusercontent.com/91187555/218304446-8338664b-3504-48bf-977d-b88429a1651e.png)
+![info](https://user-images.githubusercontent.com/91187555/218304472-feb087e3-6728-4167-9384-ecc6854ac81c.png)
 
 A few resources to get you started if this is your first Flutter project:
 
