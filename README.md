@@ -7,11 +7,21 @@ Drishti Anand- CSE/IGDTUW-2025
 Surbhi Sharma- CSAI/IGDTUW-2025
 
 
-# Achroma
+# Problem Statement
 
-Our app "Achroma" aims to address this issue by providing a platform for the LGBTQ+ community to connect with lawyers, share experiences, and stay informed about laws and acts empowering them in India.Despite advances in LGBTQ+ rights, many individuals in India still face challenges in accessing legal help and information specific to their needs. This lack of access leads to confusion, uncertainty, and potential violations of their rights. 
+LGBTQ+ community is at the receiving end of the gender and identity-based discrimination, and the members go through an excruciating struggle when looking for safe spaces to interact with people, it doesnt end here the list is never ending.Despite advances in LGBTQ+ rights, many individuals in India still face challenges in accessing legal help and information specific to their needs. This lack of access leads to confusion, uncertainty, and potential violations of their rights. 
 
+# Solution: ACHROMA
 
+Our app "Achroma" aims to address this issue by providing a platform for the LGBTQ+ community to connect with lawyers, share experiences, and stay informed about laws and acts empowering them in India.Here is how our app is ready to help the LGBTQ+ community:
+
+1. Individuals in the LGBTQ+ community can connect with lawyers who have expertise in issues faced by the community.
+
+2. Achroma serves as a resource for the LGBTQ+ community by providing information on laws and acts related to LGBTQ+ rights in India. 
+
+3. People from the community can share their experiences and knowledge about current laws and acts empowering LGBTQ+ people in India. 
+
+4. Achroma helps build a supportive community.
 
 ## Glimpses of our app
 
