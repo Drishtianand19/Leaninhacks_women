@@ -23,6 +23,27 @@ Our app "Achroma" aims to address this issue by providing a platform for the LGB
 
 4. Achroma helps build a supportive community.
 
+# Tech Stack 
+
+Front end : Flutter
+
+Back end : FireBase & FireStore
+
+# Future Scope
+1. Crowdfunding for legal fees
+
+2. Integration with social media platforms
+
+3. Support for other marginalized communities
+
+4. Multi-language support
+
+5. Lawyer verification upon sign up
+
+6. Developing a payment platform for lawyers' fees
+
+7. Integrating the chat platform to enable people from the community to chat amongst themselv
+
 ## Glimpses of our app
 
 ![sign in](https://user-images.githubusercontent.com/91187555/218303937-e4ecf63b-e5f7-48c3-a7a0-14a4dfb0f970.png)
@@ -37,11 +58,4 @@ Our app "Achroma" aims to address this issue by providing a platform for the LGB
 ![resources](https://user-images.githubusercontent.com/91187555/218304446-8338664b-3504-48bf-977d-b88429a1651e.png)
 ![info](https://user-images.githubusercontent.com/91187555/218304472-feb087e3-6728-4167-9384-ecc6854ac81c.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
