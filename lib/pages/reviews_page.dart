@@ -36,7 +36,7 @@ class _ReviewsPageState extends State<ReviewsPage> {
       ),
       body: SingleChildScrollView(
         child: Container(
-          margin: EdgeInsets.symmetric(horizontal: 35.0, vertical: 45.0),
+          margin: EdgeInsets.symmetric(horizontal: 36.0, vertical: 44.0),
           child: Column(
             children: <Widget>[
               Container(
